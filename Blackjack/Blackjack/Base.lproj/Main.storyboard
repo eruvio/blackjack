@@ -79,13 +79,14 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sah-KX-ESV">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79t-nT-FYU">
                                 <rect key="frame" x="171" y="446" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.26908018955731827" green="0.66952639145634163" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" red="0.32510524134870267" green="0.74519423840092802" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Hit">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.31633694690000003" green="1" blue="0.69100543800000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -95,7 +96,7 @@
                         <outlet property="dealerCard3" destination="I9K-p2-Cib" id="dzS-1I-pfK"/>
                         <outlet property="dealerCard4" destination="gC5-DZ-9HZ" id="Zmx-1v-CbK"/>
                         <outlet property="dealerCard5" destination="cW9-ze-hQ3" id="IjQ-FM-5n7"/>
-                        <outlet property="hitButton" destination="sah-KX-ESV" id="RGT-Sl-LMa"/>
+                        <outlet property="hitButton" destination="79t-nT-FYU" id="tU1-Hm-k1R"/>
                         <outlet property="playerCard1" destination="oU5-IG-ScN" id="PKt-Mj-0Ov"/>
                         <outlet property="playerCard2" destination="feN-6g-sXj" id="12h-tS-kdM"/>
                         <outlet property="playerCard3" destination="7Nq-X8-qqv" id="lJh-lb-Wwj"/>

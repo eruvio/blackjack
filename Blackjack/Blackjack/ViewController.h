@@ -23,7 +23,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *playerCard5;
 
 @property (weak, nonatomic) IBOutlet UIButton *standButton;
-@property (weak, nonatomic) IBOutlet UILabel *hitButton;
+@property (weak, nonatomic) IBOutlet UIButton *hitButton;
 
 
 @end
