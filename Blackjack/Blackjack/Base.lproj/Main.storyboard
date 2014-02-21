@@ -12,36 +12,105 @@
                         <viewControllerLayoutGuide type="top" id="azL-fB-GNa"/>
                         <viewControllerLayoutGuide type="bottom" id="PgD-og-hJe"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="8NU-SS-Lwc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dealer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZD-R7-zmp">
-                                <rect key="frame" x="130" y="60" width="61" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dealer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ula-Ka-kjd">
+                                <rect key="frame" x="130" y="20" width="61" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZi-gL-ysH">
-                                <rect key="frame" x="129" y="341" width="62" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DFt-nS-Vak">
+                                <rect key="frame" x="129" y="233" width="62" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lh2-bi-4I2">
-                                <rect key="frame" x="40" y="152" width="118" height="176"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="cW9-ze-hQ3">
+                                <rect key="frame" x="32" y="49" width="118" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="gC5-DZ-9HZ">
+                                <rect key="frame" x="65" y="49" width="118" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="I9K-p2-Cib">
+                                <rect key="frame" x="101" y="49" width="118" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="aCx-uX-v7f">
+                                <rect key="frame" x="137" y="49" width="118" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="ngq-VS-M5X">
+                                <rect key="frame" x="171" y="49" width="118" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="eQg-GX-kjs">
+                                <rect key="frame" x="32" y="262" width="118" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="0hY-uj-3NN">
+                                <rect key="frame" x="65" y="262" width="118" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Nq-X8-qqv">
+                                <rect key="frame" x="101" y="262" width="118" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="feN-6g-sXj">
+                                <rect key="frame" x="137" y="262" width="118" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="oU5-IG-ScN">
+                                <rect key="frame" x="171" y="262" width="118" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPI-tv-s01">
+                                <rect key="frame" x="32" y="446" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19552106839708527" green="0.96669413212383304" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Stand">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sah-KX-ESV">
+                                <rect key="frame" x="171" y="446" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.26908018955731827" green="0.66952639145634163" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.3163369468551489" green="1" blue="0.69100543802356484" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.31633694690000003" green="1" blue="0.69100543800000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="dealerCard1" destination="ngq-VS-M5X" id="KTP-4Q-Seh"/>
+                        <outlet property="dealerCard2" destination="aCx-uX-v7f" id="saU-By-41W"/>
+                        <outlet property="dealerCard3" destination="I9K-p2-Cib" id="dzS-1I-pfK"/>
+                        <outlet property="dealerCard4" destination="gC5-DZ-9HZ" id="Zmx-1v-CbK"/>
+                        <outlet property="dealerCard5" destination="cW9-ze-hQ3" id="IjQ-FM-5n7"/>
+                        <outlet property="hitButton" destination="sah-KX-ESV" id="RGT-Sl-LMa"/>
+                        <outlet property="playerCard1" destination="oU5-IG-ScN" id="PKt-Mj-0Ov"/>
+                        <outlet property="playerCard2" destination="feN-6g-sXj" id="12h-tS-kdM"/>
+                        <outlet property="playerCard3" destination="7Nq-X8-qqv" id="lJh-lb-Wwj"/>
+                        <outlet property="playerCard4" destination="0hY-uj-3NN" id="XHS-Vu-tmV"/>
+                        <outlet property="playerCard5" destination="eQg-GX-kjs" id="cEv-bV-tcZ"/>
+                        <outlet property="standButton" destination="IPI-tv-s01" id="KFU-1x-azE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="card-back.png" width="118" height="176"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
