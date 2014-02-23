@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIAlertViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *dealerCard1;
 @property (weak, nonatomic) IBOutlet UIImageView *dealerCard2;
@@ -25,5 +25,9 @@
 @property (weak, nonatomic) IBOutlet UIButton *standButton;
 @property (weak, nonatomic) IBOutlet UIButton *hitButton;
 
+- (IBAction)didTapStandButton:(id)sender;
+- (IBAction)didTapHitButton:(id)sender;
+
+-(void) alert:(NSString*)title :(NSString*)msg :(NSString*)btnTitle;
 
 @end

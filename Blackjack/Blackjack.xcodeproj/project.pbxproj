@@ -130,6 +130,9 @@
 		35605C0218B7036300AF3D6C /* spade-8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35605B9518B7036300AF3D6C /* spade-8@2x.png */; };
 		35605C0318B7036300AF3D6C /* spade-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 35605B9618B7036300AF3D6C /* spade-9.png */; };
 		35605C0418B7036300AF3D6C /* spade-9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35605B9718B7036300AF3D6C /* spade-9@2x.png */; };
+		35605C0718B98E4800AF3D6C /* BJDCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 35605C0618B98E4800AF3D6C /* BJDCard.m */; };
+		35D2177A18B994B200FFD97E /* BJDGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D2177918B994B200FFD97E /* BJDGameModel.m */; };
+		35D2177D18B9ABA400FFD97E /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D2177C18B9ABA400FFD97E /* NSMutableArray+Shuffle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -271,6 +274,12 @@
 		35605B9518B7036300AF3D6C /* spade-8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade-8@2x.png"; sourceTree = "<group>"; };
 		35605B9618B7036300AF3D6C /* spade-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade-9.png"; sourceTree = "<group>"; };
 		35605B9718B7036300AF3D6C /* spade-9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spade-9@2x.png"; sourceTree = "<group>"; };
+		35605C0518B98E4800AF3D6C /* BJDCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDCard.h; sourceTree = "<group>"; };
+		35605C0618B98E4800AF3D6C /* BJDCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDCard.m; sourceTree = "<group>"; };
+		35D2177818B994B200FFD97E /* BJDGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BJDGameModel.h; path = "../../../../../Downloads/9781430243748/Chapter 4/Starting Code/Blackjack/Blackjack/data/BJDGameModel.h"; sourceTree = "<group>"; };
+		35D2177918B994B200FFD97E /* BJDGameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BJDGameModel.m; path = "../../../../../Downloads/9781430243748/Chapter 4/Starting Code/Blackjack/Blackjack/data/BJDGameModel.m"; sourceTree = "<group>"; };
+		35D2177B18B9ABA400FFD97E /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		35D2177C18B9ABA400FFD97E /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -334,6 +343,12 @@
 				35605A2518B700DC00AF3D6C /* AppDelegate.h */,
 				35605A2618B700DC00AF3D6C /* AppDelegate.m */,
 				35605A2818B700DC00AF3D6C /* Main.storyboard */,
+				35605C0518B98E4800AF3D6C /* BJDCard.h */,
+				35605C0618B98E4800AF3D6C /* BJDCard.m */,
+				35D2177B18B9ABA400FFD97E /* NSMutableArray+Shuffle.h */,
+				35D2177C18B9ABA400FFD97E /* NSMutableArray+Shuffle.m */,
+				35D2177818B994B200FFD97E /* BJDGameModel.h */,
+				35D2177918B994B200FFD97E /* BJDGameModel.m */,
 				35605A2B18B700DC00AF3D6C /* ViewController.h */,
 				35605A2C18B700DC00AF3D6C /* ViewController.m */,
 				35605A2E18B700DC00AF3D6C /* Images.xcassets */,
@@ -711,8 +726,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				35605A2D18B700DC00AF3D6C /* ViewController.m in Sources */,
+				35D2177A18B994B200FFD97E /* BJDGameModel.m in Sources */,
 				35605A2718B700DC00AF3D6C /* AppDelegate.m in Sources */,
+				35605C0718B98E4800AF3D6C /* BJDCard.m in Sources */,
 				35605A2318B700DC00AF3D6C /* main.m in Sources */,
+				35D2177D18B9ABA400FFD97E /* NSMutableArray+Shuffle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -921,6 +939,7 @@
 				35605A4718B700DC00AF3D6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35605A4818B700DC00AF3D6C /* Build configuration list for PBXNativeTarget "BlackjackTests" */ = {
 			isa = XCConfigurationList;
@@ -929,6 +948,7 @@
 				35605A4A18B700DC00AF3D6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

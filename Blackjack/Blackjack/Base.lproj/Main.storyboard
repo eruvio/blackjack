@@ -78,6 +78,9 @@
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapStandButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qKE-Fi-4fG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79t-nT-FYU">
                                 <rect key="frame" x="171" y="446" width="118" height="30"/>
@@ -86,6 +89,9 @@
                                 <state key="normal" title="Hit">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapHitButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kZs-h2-KaD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.31633694690000003" green="1" blue="0.69100543800000003" alpha="1" colorSpace="calibratedRGB"/>
